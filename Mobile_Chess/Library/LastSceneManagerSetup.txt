@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Level/Chess_LVL1.unity
+  isLoaded: 1
+  isActive: 1
