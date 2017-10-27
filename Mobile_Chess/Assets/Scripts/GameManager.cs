@@ -165,7 +165,8 @@ public class GameManager : MonoBehaviour
     public static int CalculateWhiteFinalScore()
     {
         WhitePlayerFinalScore = 0;
-        WhitePlayerFinalScore += GetWhiteAdjMoveScore();
+        WhitePlayerFinalScore += WhitePlayerScore;
+        //WhitePlayerFinalScore += GetWhiteAdjMoveScore();
         WhitePlayerFinalScore += WhitePlayerChessPieceCounts["KING"] * GetPieceWorth("KING");
         WhitePlayerFinalScore += WhitePlayerChessPieceCounts["QUEEN"] * GetPieceWorth("QUEEN");
         WhitePlayerFinalScore += WhitePlayerChessPieceCounts["BISHOP"] * GetPieceWorth("BISHOP");
@@ -182,7 +183,8 @@ public class GameManager : MonoBehaviour
     public static int CalculateBlackFinalScore()
     {
         BlackPlayerFinalScore = 0;
-        BlackPlayerFinalScore += GetBlackAdjMoveScore();
+        BlackPlayerFinalScore += BlackPlayerScore;
+        //BlackPlayerFinalScore += GetBlackAdjMoveScore();
         BlackPlayerFinalScore += BlackPlayerChessPieceCounts["KING"] * GetPieceWorth("KING");
         BlackPlayerFinalScore += BlackPlayerChessPieceCounts["QUEEN"] * GetPieceWorth("QUEEN");
         BlackPlayerFinalScore += BlackPlayerChessPieceCounts["BISHOP"] * GetPieceWorth("BISHOP");

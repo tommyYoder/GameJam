@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class EndGameManager : MonoBehaviour
 {
-    #region End Game Text Variables
+    /*#region End Game Text Variables
     [Header("Victim Values")]
     [Header("Score Text Variables")]
     public Text VictimPlayerScoreTxt;
@@ -54,21 +54,40 @@ public class EndGameManager : MonoBehaviour
     private float PlayBoxSpawnTimer;
     public float PlayBoxSpawnMaxTime;
     public Text ReplayBoxMessage;
-    #endregion
+    #endregion*/
 
-
+    public Text GameRoundsTxt;
+    public Text VictimScoreTxt;
+    public Text VictimFinalScoreTxt;
+    public Text MonsterScoreTxt;
+    public Text MonsterFinalScoreTxt;
+    public Text EndMessageTxt;
     // Use this for initialization
     void Start ()
     {
-        PlayBoxSpawnTimer = 0f;
+        /*PlayBoxSpawnTimer = 0f;
         WriteEndVictimValues();
-        WriteEndMonsterValues();	
+        WriteEndMonsterValues();*/
+        GameRoundsTxt.text = GameManager.WhitePlayerMoveCount.ToString();
+        VictimScoreTxt.text = GameManager.WhitePlayerScore.ToString();
+        VictimFinalScoreTxt.text = GameManager.CalculateWhiteFinalScore().ToString();
+        MonsterScoreTxt.text = GameManager.BlackPlayerScore.ToString();
+        MonsterFinalScoreTxt.text = GameManager.CalculateBlackFinalScore().ToString();
+
+        if (GameManager.WhitePlayerWon)
+        {
+            EndMessageTxt.text = "Victims have triumphed!";
+        }
+        else
+        {
+            EndMessageTxt.text = "Monsters have slain all!";
+        }	
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-		if(PlayBoxSpawnTimer >= PlayBoxSpawnMaxTime)
+		/*if(PlayBoxSpawnTimer >= PlayBoxSpawnMaxTime)
         {
             PlayAgainBox.SetActive(true);
             if (GameManager.WhitePlayerWon)
@@ -80,10 +99,10 @@ public class EndGameManager : MonoBehaviour
         else
         {
             PlayBoxSpawnTimer += Time.deltaTime;
-        }
+        }*/
 	}
 
-    void WriteEndVictimValues()
+    /*void WriteEndVictimValues()
     {
         VictimPlayerScoreTxt.text = GameManager.WhitePlayerScore.ToString();
         VictimMovesCounterTxt.text = GameManager.WhitePlayerMoveCount.ToString();
@@ -133,5 +152,5 @@ public class EndGameManager : MonoBehaviour
             MonsterGameClearedScoreTxt.text = "0";
 
         MonsterFinalScoreTxt.text = GameManager.CalculateBlackFinalScore().ToString();
-    }
+    }*/
 }

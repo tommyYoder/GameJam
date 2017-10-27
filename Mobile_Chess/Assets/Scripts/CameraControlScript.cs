@@ -46,7 +46,7 @@ public class CameraControlScript : MonoBehaviour
             ResetCamera();
         }
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(1))
         {
             transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x + (yPos * TurnSpeed * Time.deltaTime), transform.rotation.eulerAngles.y + (xPos * TurnSpeed * Time.deltaTime), transform.rotation.eulerAngles.z);
         }
