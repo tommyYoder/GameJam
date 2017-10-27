@@ -96,7 +96,7 @@ public class Bishop : Chessman
         }
         return r;
     }
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "ChessPiece")
         {
@@ -129,5 +129,5 @@ public class Bishop : Chessman
             }
 
         }
-    }
+    }*/
 }

@@ -93,7 +93,7 @@ public class Rook : Chessman
         return r;
     }
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "ChessPiece")
         {
@@ -126,6 +126,6 @@ public class Rook : Chessman
             }
 
         }
-    }
+    }*/
 
 }
