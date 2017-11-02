@@ -72,7 +72,7 @@ public class BoardManager : MonoBehaviour {
     public AudioSource MikeSound;
     public AudioSource FreddySound;
     public AudioSource JasonSound;
-
+    public AudioSource RunSound;
 
     public SimpleTouchAreaButton areaButton;
 
@@ -199,14 +199,15 @@ public class BoardManager : MonoBehaviour {
     private void SelectedChessman(int x, int y)
     {
         //Is there is no chess piece at this spot.
-        if(Chessmans[x,y] == null)
-        
-            return;
-        
+        if (Chessmans[x, y] == null)
+        return;
+       
+
         //is the piece is opposite of the player who has the turn
-        if(Chessmans[x,y].isWhite != isWhiteTurn)
-        
-            return;
+        if (Chessmans[x,y].isWhite != isWhiteTurn)
+        return;
+      
+
         // If selection has been made, then allowed moves becomes true.
         bool hasAtLeastOneMove = false;
         allowedMoves = Chessmans[x, y].PossibleMove();
@@ -376,7 +377,7 @@ public class BoardManager : MonoBehaviour {
             }
             else
             {
-                ScreamSound.Play();
+                RunSound.Play();
             }
 
         if (d.GetType() == typeof(Queen))
@@ -386,7 +387,7 @@ public class BoardManager : MonoBehaviour {
             }
             else
             {
-                ScreamSound.Play();
+                RunSound.Play();
             }
 
         if (d.GetType() == typeof(Rook))
@@ -396,7 +397,7 @@ public class BoardManager : MonoBehaviour {
             }
             else
             {
-                ManScream.Play();
+                RunSound.Play();
             }
 
         if (d.GetType() == typeof(Bishop))
@@ -406,7 +407,7 @@ public class BoardManager : MonoBehaviour {
             }
             else
             {
-                ManScream.Play();
+                RunSound.Play();
             }
 
         if (d.GetType() == typeof(Knight))
@@ -416,17 +417,17 @@ public class BoardManager : MonoBehaviour {
             }
             else
             {
-                ScreamSound.Play();
+                RunSound.Play();
             }
 
         if (d.GetType() == typeof(Pawn))
             if (isWhiteTurn)
             {
-                ManScream.Play();
+                RunSound.Play();
             }
             else
             {
-                ManScream.Play();
+                RunSound.Play();
             }
 
         //PieceSwitcherup = false;  // This allows the buttons to go to false when selections are made.
