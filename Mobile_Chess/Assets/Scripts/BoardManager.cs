@@ -76,6 +76,21 @@ public class BoardManager : MonoBehaviour {
 
     public SimpleTouchAreaButton areaButton;
 
+    private float fogDensity;
+    public GameObject DeathParticles;
+
+    public float FogDensity
+    {
+        get
+        {
+            return fogDensity;
+        }
+        set
+        {
+            fogDensity = value;
+        }
+    }
+
     // Makes this script usable to other scripts and calls upon the spawn all chest mans class.
     private void Start()
     {
@@ -624,6 +639,15 @@ public class BoardManager : MonoBehaviour {
         int piecePlace = SwitchPiecesDictionary[pieceName];
         SpawnedChessMan(piecePlace, SwitchedPieceX, SwitchedPieceY, SpawnRot);
         //selectedChessman = Chessmans[SwitchedPieceX, SwitchedPieceY];
+    }
+    public void AddFog(float density)
+    {
+        FogDensity += density;
+
+        if (FogDensity >= 0.15f)
+            FogDensity = 0.15f;
+
+        RenderSettings.fogDensity = FogDensity;
     }
 
     // Ends game when either side's King is destroyed.

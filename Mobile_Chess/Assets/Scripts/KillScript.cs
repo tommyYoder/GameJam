@@ -12,9 +12,12 @@ public class KillScript : MonoBehaviour
             Chessman otherChessman = other.GetComponent<Chessman>();
             if ((this.GetComponent<Chessman>().isWhite != otherChessman.isWhite) && (otherChessman.isTarget))
             {
-                print("I hit an enemy");
+                
                 BoardManager.Instance.activeChessMan.Remove(otherChessman.gameObject);
                 Destroy(otherChessman.gameObject);
+
+                Instantiate(BoardManager.Instance.DeathParticles, transform.position, Quaternion.identity);
+                BoardManager.Instance.AddFog(0.03f);
 
                 if (this.GetComponent<Chessman>().isWhite)
                 {
