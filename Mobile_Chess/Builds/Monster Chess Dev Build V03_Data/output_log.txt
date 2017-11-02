@@ -1,0 +1,125 @@
+Mono path[0] = 'C:/Users/Kit/Documents/GitHub/GameJam/Mobile_Chess/Builds/Monster Chess Dev Build V03_Data/Managed'
+Mono path[1] = 'C:/Users/Kit/Documents/GitHub/GameJam/Mobile_Chess/Builds/Monster Chess Dev Build V03_Data/Mono'
+Mono config path = 'C:/Users/Kit/Documents/GitHub/GameJam/Mobile_Chess/Builds/Monster Chess Dev Build V03_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Kit/Documents/GitHub/GameJam/Mobile_Chess/Builds/Monster Chess Dev Build V03_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55377
+Multi-casting "[IP] 192.168.0.14 [Port] 55377 [Flags] 2 [Guid] 2369254832 [EditorId] 2872460826 [Version] 1048832 [Id] WindowsPlayer(Krylancelo) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55377]
+PlayerConnection already initialized - listening to [0.0.0.0:55377]
+Player data archive not found at `C:/Users/Kit/Documents/GitHub/GameJam/Mobile_Chess/Builds/Monster Chess Dev Build V03_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Builds\Monster Chess Dev Build V03_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Builds\Monster Chess Dev Build V03_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Builds\Monster Chess Dev Build V03_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Builds\Monster Chess Dev Build V03_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Builds\Monster Chess Dev Build V03_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Builds\Monster Chess Dev Build V03_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Builds\Monster Chess Dev Build V03_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Builds\Monster Chess Dev Build V03_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Builds\Monster Chess Dev Build V03_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Builds\Monster Chess Dev Build V03_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.040 seconds
+Platform assembly: C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Builds\Monster Chess Dev Build V03_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Builds\Monster Chess Dev Build V03_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.565118 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2dd4 -> priority: 1 
+  Thread -> id: 4110 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.743037 ms
+System memory in use before: 42.2 MB.
+System memory in use after: 38.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1037.
+Total: 1.272959 ms (FindLiveObjects: 0.085119 ms CreateObjectMapping: 0.044159 ms MarkObjects: 0.498559 ms  DeleteObjects: 0.643199 ms)
+
+Pawn
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+BoardManager:Update() (at C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Assets\Scripts\BoardManager.cs:160)
+ 
+(Filename: C:/Users/Kit/Documents/GitHub/GameJam/Mobile_Chess/Assets/Scripts/BoardManager.cs Line: 160)
+
+Pawn
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+BoardManager:Update() (at C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Assets\Scripts\BoardManager.cs:160)
+ 
+(Filename: C:/Users/Kit/Documents/GitHub/GameJam/Mobile_Chess/Assets/Scripts/BoardManager.cs Line: 160)
+
+Bishop
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+BoardManager:Update() (at C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Assets\Scripts\BoardManager.cs:160)
+ 
+(Filename: C:/Users/Kit/Documents/GitHub/GameJam/Mobile_Chess/Assets/Scripts/BoardManager.cs Line: 160)
+
+Bishop
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+BoardManager:Update() (at C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Assets\Scripts\BoardManager.cs:160)
+ 
+(Filename: C:/Users/Kit/Documents/GitHub/GameJam/Mobile_Chess/Assets/Scripts/BoardManager.cs Line: 160)
+
+I hit an enemy
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+KillScript:OnTriggerEnter(Collider) (at C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Assets\Scripts\KillScript.cs:15)
+ 
+(Filename: C:/Users/Kit/Documents/GitHub/GameJam/Mobile_Chess/Assets/Scripts/KillScript.cs Line: 15)
+
+White Player is sitting at 10000
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+GameManager:WhitePlayerAddScore(Int32) (at C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Assets\Scripts\GameManager.cs:98)
+KillScript:OnTriggerEnter(Collider) (at C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Assets\Scripts\KillScript.cs:21)
+ 
+(Filename: C:/Users/Kit/Documents/GitHub/GameJam/Mobile_Chess/Assets/Scripts/GameManager.cs Line: 98)
+
+You Lose
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BoardManager:EndGame() (at C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Assets\Scripts\BoardManager.cs:636)
+KillScript:OnTriggerEnter(Collider) (at C:\Users\Kit\Documents\GitHub\GameJam\Mobile_Chess\Assets\Scripts\KillScript.cs:31)
+ 
+(Filename: C:/Users/Kit/Documents/GitHub/GameJam/Mobile_Chess/Assets/Scripts/BoardManager.cs Line: 636)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.949759 ms
+System memory in use before: 41.3 MB.
+System memory in use after: 31.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 904.
+Total: 1.909438 ms (FindLiveObjects: 0.075519 ms CreateObjectMapping: 0.054719 ms MarkObjects: 0.411519 ms  DeleteObjects: 1.365759 ms)
+
