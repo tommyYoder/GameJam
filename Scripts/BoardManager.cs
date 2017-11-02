@@ -42,10 +42,10 @@ public class BoardManager : MonoBehaviour {
         {"WHITE ROOK", 2 },
         {"WHITE BISHOP", 3 },
         {"WHITE KNIGHT", 4 },
-        {"BLACK QUEEN", 7 },
-        {"BLACK ROOK", 8 },
-        {"BLACK BISHOP", 9 },
-        {"BLACK KNIGHT", 10 }
+        {"BLACK QUEEN", 8 },
+        {"BLACK ROOK", 9 },
+        {"BLACK BISHOP", 10 },
+        {"BLACK KNIGHT", 11 }
     };
 
     private int SwitchedPieceX;
@@ -72,7 +72,7 @@ public class BoardManager : MonoBehaviour {
     public AudioSource MikeSound;
     public AudioSource FreddySound;
     public AudioSource JasonSound;
-
+    public AudioSource RunSound;
 
     public SimpleTouchAreaButton areaButton;
 
@@ -199,14 +199,15 @@ public class BoardManager : MonoBehaviour {
     private void SelectedChessman(int x, int y)
     {
         //Is there is no chess piece at this spot.
-        if(Chessmans[x,y] == null)
-        
-            return;
-        
+        if (Chessmans[x, y] == null)
+        return;
+       
+
         //is the piece is opposite of the player who has the turn
-        if(Chessmans[x,y].isWhite != isWhiteTurn)
-        
-            return;
+        if (Chessmans[x,y].isWhite != isWhiteTurn)
+        return;
+      
+
         // If selection has been made, then allowed moves becomes true.
         bool hasAtLeastOneMove = false;
         allowedMoves = Chessmans[x, y].PossibleMove();
@@ -376,7 +377,7 @@ public class BoardManager : MonoBehaviour {
             }
             else
             {
-                ScreamSound.Play();
+                RunSound.Play();
             }
 
         if (d.GetType() == typeof(Queen))
@@ -386,7 +387,7 @@ public class BoardManager : MonoBehaviour {
             }
             else
             {
-                ScreamSound.Play();
+                RunSound.Play();
             }
 
         if (d.GetType() == typeof(Rook))
@@ -396,7 +397,7 @@ public class BoardManager : MonoBehaviour {
             }
             else
             {
-                ManScream.Play();
+                RunSound.Play();
             }
 
         if (d.GetType() == typeof(Bishop))
@@ -406,7 +407,7 @@ public class BoardManager : MonoBehaviour {
             }
             else
             {
-                ManScream.Play();
+                RunSound.Play();
             }
 
         if (d.GetType() == typeof(Knight))
@@ -416,17 +417,17 @@ public class BoardManager : MonoBehaviour {
             }
             else
             {
-                ScreamSound.Play();
+                RunSound.Play();
             }
 
         if (d.GetType() == typeof(Pawn))
             if (isWhiteTurn)
             {
-                ManScream.Play();
+                RunSound.Play();
             }
             else
             {
-                ManScream.Play();
+                RunSound.Play();
             }
 
         //PieceSwitcherup = false;  // This allows the buttons to go to false when selections are made.
@@ -496,36 +497,77 @@ public class BoardManager : MonoBehaviour {
         SpawnedChessMan(4, 6, 0, Whiteorientation);
 
         //Pawns
-       for(int i = 0; i < 8; i++)
+       /*for(int i = 0; i < 8; i += 2)
         {
             SpawnedChessMan(5,i, 1, Whiteorientation);
+        }
+
+        for (int i = 1; i < 8; i += 2)
+        {
+            SpawnedChessMan(6, i, 1, Whiteorientation);
+        }*/
+
+        int i = 0; 
+
+        while(i < 8)
+        {
+            if(i % 2 == 0)
+            {
+                SpawnedChessMan(5, i, 1, Whiteorientation);
+            }
+            else
+            {
+                SpawnedChessMan(6, i, 1, Whiteorientation);
+            }
+            i++;
         }
 
         //Spawn Black Team
 
         //King
-        SpawnedChessMan(6, 4, 7, Blackorientation);
+        SpawnedChessMan(7, 4, 7, Blackorientation);
 
 
         //Queen
-        SpawnedChessMan(7, 3, 7, Blackorientation);
+        SpawnedChessMan(8, 3, 7, Blackorientation);
 
         //Rooks
-        SpawnedChessMan(8, 0, 7, Blackorientation);
-        SpawnedChessMan(8, 7, 7, Blackorientation);
+        SpawnedChessMan(9, 0, 7, Blackorientation);
+        SpawnedChessMan(9, 7, 7, Blackorientation);
 
         //Bishops
-        SpawnedChessMan(9, 2, 7, Blackorientation);
-        SpawnedChessMan(9, 5, 7, Blackorientation);
+        SpawnedChessMan(10, 2, 7, Blackorientation);
+        SpawnedChessMan(10, 5, 7, Blackorientation);
 
         //Kights
-        SpawnedChessMan(10, 1, 7, Blackorientation);
-        SpawnedChessMan(10, 6, 7, Blackorientation);
+        SpawnedChessMan(11, 1, 7, Blackorientation);
+        SpawnedChessMan(11, 6, 7, Blackorientation);
 
         //Pawns
-        for (int i = 0; i < 8; i++)
+        /*for (int i = 0; i < 8; i += 2)
         {
-            SpawnedChessMan(11, i, 6, Blackorientation);
+            SpawnedChessMan(12, i, 6, Blackorientation);
+        }
+
+        for (int i = 1; i < 8; i++)
+        {
+            SpawnedChessMan(13, i, 6, Blackorientation);
+        }*/
+
+        i = 0;
+
+        while (i < 8)
+        {
+            if (i % 2 == 0)
+            {
+                SpawnedChessMan(12, i, 6, Blackorientation);
+            }
+            else
+            {
+                SpawnedChessMan(13, i, 6, Blackorientation);
+            }
+
+            i++;
         }
     }
 
@@ -533,7 +575,7 @@ public class BoardManager : MonoBehaviour {
     private Vector3 GetTileCenter(int x, int y)
     {
         Vector3 origin = Vector3.zero;
-        origin.x += (tileSize * x)+ tileOffset;
+        origin.x += (tileSize * x)+ tileOffset; 
         origin.z += (tileSize * y) + tileOffset;
         return origin;
     }
@@ -581,7 +623,7 @@ public class BoardManager : MonoBehaviour {
 
         int piecePlace = SwitchPiecesDictionary[pieceName];
         SpawnedChessMan(piecePlace, SwitchedPieceX, SwitchedPieceY, SpawnRot);
-        selectedChessman = Chessmans[SwitchedPieceX, SwitchedPieceY];
+        //selectedChessman = Chessmans[SwitchedPieceX, SwitchedPieceY];
     }
 
     // Ends game when either side's King is destroyed.

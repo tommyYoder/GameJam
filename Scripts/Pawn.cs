@@ -104,7 +104,7 @@ public class Pawn : Chessman
 
         }
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "ChessPiece")
         {
@@ -137,7 +137,7 @@ public class Pawn : Chessman
             }
 
         }
-    }
+    }*/
 }
 
 

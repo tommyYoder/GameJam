@@ -41,9 +41,14 @@ public class CameraControlScript : MonoBehaviour
         float yPos = -Input.GetAxisRaw("Mouse Y");
 
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(2))
         {
             ResetCamera();
+        }
+
+        if (Input.GetMouseButton(1))
+        {
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x + (yPos * TurnSpeed * Time.deltaTime), transform.rotation.eulerAngles.y + (xPos * TurnSpeed * Time.deltaTime), transform.rotation.eulerAngles.z);
         }
 
         if (Input.touchCount > 0)
@@ -53,19 +58,18 @@ public class CameraControlScript : MonoBehaviour
             {
                 transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x + (yPos * TurnSpeed * Time.deltaTime), transform.rotation.eulerAngles.y + (xPos * TurnSpeed * Time.deltaTime), transform.rotation.eulerAngles.z);
             }
+        }
 
-            if (isRotating)
-            {
-                transform.rotation = Quaternion.Slerp(curRot, endRot, rotInterp);
-                rotInterp += (Time.deltaTime * 2);
-            }
+        if (isRotating)
+        {
+            transform.rotation = Quaternion.Slerp(curRot, endRot, rotInterp);
+            rotInterp += (Time.deltaTime * 2);
+        }
 
-            if (rotInterp > 1.0f)
-            {
-                isRotating = false;
-                rotInterp = 0;
-            }
-
+        if (rotInterp > 1.0f)
+        {
+            isRotating = false;
+            rotInterp = 0;
         }
     }
 

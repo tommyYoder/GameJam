@@ -52,7 +52,7 @@ public class Knight : Chessman
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "ChessPiece")
         {
@@ -85,5 +85,5 @@ public class Knight : Chessman
             }
 
         }
-    }
+    }*/
 }
