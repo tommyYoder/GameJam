@@ -28,7 +28,7 @@ public class KillScript : MonoBehaviour
                 }
                 if (otherChessman.GetType() == typeof(King))
                 {
-                    BoardManager.Instance.EndGame();
+                    GameHUDManager.instance.ActivateMatchWonDialogBox();
                     return;
                 }
 

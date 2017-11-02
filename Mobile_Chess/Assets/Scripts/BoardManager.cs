@@ -629,11 +629,11 @@ public class BoardManager : MonoBehaviour {
     public void EndGame()
     {
         // If player wins then game is reseted
-        if (isWhiteTurn)
+        /*if (isWhiteTurn)
             Debug.Log("You Win");
         else
             // If Enemy wins the game is reseted. 
-            Debug.Log("You Lose");
+            Debug.Log("You Lose");*/
         GameManager.EndGame(isWhiteTurn);
         foreach (GameObject go in activeChessMan)
             Destroy(go);

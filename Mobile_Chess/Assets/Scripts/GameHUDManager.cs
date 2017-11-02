@@ -9,6 +9,7 @@ public class GameHUDManager : MonoBehaviour
     public Text VictimScoreTxt;
     public Text DescriptiveTxt;
     public GameObject PieceSwitcherUI;
+    public GameObject MatchWonDialogBox;
     private string chosenPiece;
  
 
@@ -44,6 +45,11 @@ public class GameHUDManager : MonoBehaviour
     {
         DescriptiveTxt.text = text;
         chosenPiece = text;
+    }
+
+    public void ActivateMatchWonDialogBox()
+    {
+        MatchWonDialogBox.SetActive(true);
     }
 
     public void UpdateGameManager()
