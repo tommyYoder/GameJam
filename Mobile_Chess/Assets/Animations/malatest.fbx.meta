@@ -1,0 +1,536 @@
+fileFormatVersion: 2
+guid: 008bfb1690f16de43b48e406c79823bc
+timeCreated: 1512085858
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Character_Ctrl:ChestEndEffector
+    100002: Character_Ctrl:ChestOriginEffector
+    100004: Character_Ctrl:Head
+    100006: Character_Ctrl:HeadEffector
+    100008: Character_Ctrl:Hips
+    100010: Character_Ctrl:HipsEffector
+    100012: Character_Ctrl:LeftAnkleEffector
+    100014: Character_Ctrl:LeftArm
+    100016: Character_Ctrl:LeftElbowEffector
+    100018: Character_Ctrl:LeftFoot
+    100020: Character_Ctrl:LeftForeArm
+    100022: Character_Ctrl:LeftHand
+    100024: Character_Ctrl:LeftHandIndex1
+    100026: Character_Ctrl:LeftHandIndex2
+    100028: Character_Ctrl:LeftHandIndexEffector
+    100030: Character_Ctrl:LeftHandThumb1
+    100032: Character_Ctrl:LeftHandThumb2
+    100034: Character_Ctrl:LeftHandThumbEffector
+    100036: Character_Ctrl:LeftHipEffector
+    100038: Character_Ctrl:LeftKneeEffector
+    100040: Character_Ctrl:LeftLeg
+    100042: Character_Ctrl:LeftShoulder
+    100044: Character_Ctrl:LeftShoulderEffector
+    100046: Character_Ctrl:LeftUpLeg
+    100048: Character_Ctrl:LeftWristEffector
+    100050: Character_Ctrl:Neck
+    100052: Character_Ctrl:Reference
+    100054: Character_Ctrl:RightAnkleEffector
+    100056: Character_Ctrl:RightArm
+    100058: Character_Ctrl:RightElbowEffector
+    100060: Character_Ctrl:RightFoot
+    100062: Character_Ctrl:RightForeArm
+    100064: Character_Ctrl:RightHand
+    100066: Character_Ctrl:RightHandIndex1
+    100068: Character_Ctrl:RightHandIndex2
+    100070: Character_Ctrl:RightHandIndexEffector
+    100072: Character_Ctrl:RightHandThumb1
+    100074: Character_Ctrl:RightHandThumb2
+    100076: Character_Ctrl:RightHandThumbEffector
+    100078: Character_Ctrl:RightHipEffector
+    100080: Character_Ctrl:RightKneeEffector
+    100082: Character_Ctrl:RightLeg
+    100084: Character_Ctrl:RightShoulder
+    100086: Character_Ctrl:RightShoulderEffector
+    100088: Character_Ctrl:RightUpLeg
+    100090: Character_Ctrl:RightWristEffector
+    100092: Character_Ctrl:Spine
+    100094: Character_Ctrl:Spine1
+    100096: Character_Ctrl:Spine2
+    100098: Character_Ctrl:Spine3
+    100100: Mala_BIP_
+    100102: Mala_BIP_ Footsteps
+    100104: Mala_BIP_ Head
+    100106: Mala_BIP_ HeadNub
+    100108: Mala_BIP_ L Calf
+    100110: Mala_BIP_ L Clavicle
+    100112: Mala_BIP_ L Finger0
+    100114: Mala_BIP_ L Finger01
+    100116: Mala_BIP_ L Finger0Nub
+    100118: Mala_BIP_ L Finger1
+    100120: Mala_BIP_ L Finger11
+    100122: Mala_BIP_ L Finger1Nub
+    100124: Mala_BIP_ L Foot
+    100126: Mala_BIP_ L Forearm
+    100128: Mala_BIP_ L Hand
+    100130: Mala_BIP_ L Thigh
+    100132: Mala_BIP_ L Toe0
+    100134: Mala_BIP_ L Toe0Nub
+    100136: Mala_BIP_ L UpperArm
+    100138: Mala_BIP_ Neck
+    100140: Mala_BIP_ Pelvis
+    100142: Mala_BIP_ R Calf
+    100144: Mala_BIP_ R Clavicle
+    100146: Mala_BIP_ R Finger0
+    100148: Mala_BIP_ R Finger01
+    100150: Mala_BIP_ R Finger0Nub
+    100152: Mala_BIP_ R Finger1
+    100154: Mala_BIP_ R Finger11
+    100156: Mala_BIP_ R Finger1Nub
+    100158: Mala_BIP_ R Foot
+    100160: Mala_BIP_ R Forearm
+    100162: Mala_BIP_ R Hand
+    100164: Mala_BIP_ R Thigh
+    100166: Mala_BIP_ R Toe0
+    100168: Mala_BIP_ R Toe0Nub
+    100170: Mala_BIP_ R UpperArm
+    100172: Mala_BIP_ Spine
+    100174: Mala_BIP_ Spine1
+    100176: Mala_BIP_ Spine2
+    100178: Mala_BIP_ Spine3
+    100180: Malachai1
+    100182: //RootNode
+    400000: Character_Ctrl:ChestEndEffector
+    400002: Character_Ctrl:ChestOriginEffector
+    400004: Character_Ctrl:Head
+    400006: Character_Ctrl:HeadEffector
+    400008: Character_Ctrl:Hips
+    400010: Character_Ctrl:HipsEffector
+    400012: Character_Ctrl:LeftAnkleEffector
+    400014: Character_Ctrl:LeftArm
+    400016: Character_Ctrl:LeftElbowEffector
+    400018: Character_Ctrl:LeftFoot
+    400020: Character_Ctrl:LeftForeArm
+    400022: Character_Ctrl:LeftHand
+    400024: Character_Ctrl:LeftHandIndex1
+    400026: Character_Ctrl:LeftHandIndex2
+    400028: Character_Ctrl:LeftHandIndexEffector
+    400030: Character_Ctrl:LeftHandThumb1
+    400032: Character_Ctrl:LeftHandThumb2
+    400034: Character_Ctrl:LeftHandThumbEffector
+    400036: Character_Ctrl:LeftHipEffector
+    400038: Character_Ctrl:LeftKneeEffector
+    400040: Character_Ctrl:LeftLeg
+    400042: Character_Ctrl:LeftShoulder
+    400044: Character_Ctrl:LeftShoulderEffector
+    400046: Character_Ctrl:LeftUpLeg
+    400048: Character_Ctrl:LeftWristEffector
+    400050: Character_Ctrl:Neck
+    400052: Character_Ctrl:Reference
+    400054: Character_Ctrl:RightAnkleEffector
+    400056: Character_Ctrl:RightArm
+    400058: Character_Ctrl:RightElbowEffector
+    400060: Character_Ctrl:RightFoot
+    400062: Character_Ctrl:RightForeArm
+    400064: Character_Ctrl:RightHand
+    400066: Character_Ctrl:RightHandIndex1
+    400068: Character_Ctrl:RightHandIndex2
+    400070: Character_Ctrl:RightHandIndexEffector
+    400072: Character_Ctrl:RightHandThumb1
+    400074: Character_Ctrl:RightHandThumb2
+    400076: Character_Ctrl:RightHandThumbEffector
+    400078: Character_Ctrl:RightHipEffector
+    400080: Character_Ctrl:RightKneeEffector
+    400082: Character_Ctrl:RightLeg
+    400084: Character_Ctrl:RightShoulder
+    400086: Character_Ctrl:RightShoulderEffector
+    400088: Character_Ctrl:RightUpLeg
+    400090: Character_Ctrl:RightWristEffector
+    400092: Character_Ctrl:Spine
+    400094: Character_Ctrl:Spine1
+    400096: Character_Ctrl:Spine2
+    400098: Character_Ctrl:Spine3
+    400100: Mala_BIP_
+    400102: Mala_BIP_ Footsteps
+    400104: Mala_BIP_ Head
+    400106: Mala_BIP_ HeadNub
+    400108: Mala_BIP_ L Calf
+    400110: Mala_BIP_ L Clavicle
+    400112: Mala_BIP_ L Finger0
+    400114: Mala_BIP_ L Finger01
+    400116: Mala_BIP_ L Finger0Nub
+    400118: Mala_BIP_ L Finger1
+    400120: Mala_BIP_ L Finger11
+    400122: Mala_BIP_ L Finger1Nub
+    400124: Mala_BIP_ L Foot
+    400126: Mala_BIP_ L Forearm
+    400128: Mala_BIP_ L Hand
+    400130: Mala_BIP_ L Thigh
+    400132: Mala_BIP_ L Toe0
+    400134: Mala_BIP_ L Toe0Nub
+    400136: Mala_BIP_ L UpperArm
+    400138: Mala_BIP_ Neck
+    400140: Mala_BIP_ Pelvis
+    400142: Mala_BIP_ R Calf
+    400144: Mala_BIP_ R Clavicle
+    400146: Mala_BIP_ R Finger0
+    400148: Mala_BIP_ R Finger01
+    400150: Mala_BIP_ R Finger0Nub
+    400152: Mala_BIP_ R Finger1
+    400154: Mala_BIP_ R Finger11
+    400156: Mala_BIP_ R Finger1Nub
+    400158: Mala_BIP_ R Foot
+    400160: Mala_BIP_ R Forearm
+    400162: Mala_BIP_ R Hand
+    400164: Mala_BIP_ R Thigh
+    400166: Mala_BIP_ R Toe0
+    400168: Mala_BIP_ R Toe0Nub
+    400170: Mala_BIP_ R UpperArm
+    400172: Mala_BIP_ Spine
+    400174: Mala_BIP_ Spine1
+    400176: Mala_BIP_ Spine2
+    400178: Mala_BIP_ Spine3
+    400180: Malachai1
+    400182: //RootNode
+    4300000: Malachai1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Malachai1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Ctrl:Reference
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:ChestEndEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:ChestOriginEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:HeadEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:LeftUpLeg
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:LeftUpLeg/Character_Ctrl:LeftLeg
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:LeftUpLeg/Character_Ctrl:LeftLeg/Character_Ctrl:LeftFoot
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:RightUpLeg
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:RightUpLeg/Character_Ctrl:RightLeg
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:RightUpLeg/Character_Ctrl:RightLeg/Character_Ctrl:RightFoot
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:LeftShoulder
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:LeftShoulder/Character_Ctrl:LeftArm
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:LeftShoulder/Character_Ctrl:LeftArm/Character_Ctrl:LeftForeArm
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:LeftShoulder/Character_Ctrl:LeftArm/Character_Ctrl:LeftForeArm/Character_Ctrl:LeftHand
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:LeftShoulder/Character_Ctrl:LeftArm/Character_Ctrl:LeftForeArm/Character_Ctrl:LeftHand/Character_Ctrl:LeftHandIndex1
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:LeftShoulder/Character_Ctrl:LeftArm/Character_Ctrl:LeftForeArm/Character_Ctrl:LeftHand/Character_Ctrl:LeftHandIndex1/Character_Ctrl:LeftHandIndex2
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:LeftShoulder/Character_Ctrl:LeftArm/Character_Ctrl:LeftForeArm/Character_Ctrl:LeftHand/Character_Ctrl:LeftHandThumb1
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:LeftShoulder/Character_Ctrl:LeftArm/Character_Ctrl:LeftForeArm/Character_Ctrl:LeftHand/Character_Ctrl:LeftHandThumb1/Character_Ctrl:LeftHandThumb2
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:Neck
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:Neck/Character_Ctrl:Head
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:RightShoulder
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:RightShoulder/Character_Ctrl:RightArm
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:RightShoulder/Character_Ctrl:RightArm/Character_Ctrl:RightForeArm
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:RightShoulder/Character_Ctrl:RightArm/Character_Ctrl:RightForeArm/Character_Ctrl:RightHand
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:RightShoulder/Character_Ctrl:RightArm/Character_Ctrl:RightForeArm/Character_Ctrl:RightHand/Character_Ctrl:RightHandIndex1
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:RightShoulder/Character_Ctrl:RightArm/Character_Ctrl:RightForeArm/Character_Ctrl:RightHand/Character_Ctrl:RightHandIndex1/Character_Ctrl:RightHandIndex2
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:RightShoulder/Character_Ctrl:RightArm/Character_Ctrl:RightForeArm/Character_Ctrl:RightHand/Character_Ctrl:RightHandThumb1
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:Hips/Character_Ctrl:Spine/Character_Ctrl:Spine1/Character_Ctrl:Spine2/Character_Ctrl:Spine3/Character_Ctrl:RightShoulder/Character_Ctrl:RightArm/Character_Ctrl:RightForeArm/Character_Ctrl:RightHand/Character_Ctrl:RightHandThumb1/Character_Ctrl:RightHandThumb2
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:HipsEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:LeftAnkleEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:LeftElbowEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:LeftHandIndexEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:LeftHandThumbEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:LeftHipEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:LeftKneeEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:LeftShoulderEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:LeftWristEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:RightAnkleEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:RightElbowEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:RightHandIndexEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:RightHandThumbEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:RightHipEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:RightKneeEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:RightShoulderEffector
+        weight: 1
+      - path: Character_Ctrl:Reference/Character_Ctrl:RightWristEffector
+        weight: 1
+      - path: Mala_BIP_
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Footsteps
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ L Thigh
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ L Thigh/Mala_BIP_
+          L Calf
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ L Thigh/Mala_BIP_
+          L Calf/Mala_BIP_ L Foot
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ L Thigh/Mala_BIP_
+          L Calf/Mala_BIP_ L Foot/Mala_BIP_ L Toe0
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ L Thigh/Mala_BIP_
+          L Calf/Mala_BIP_ L Foot/Mala_BIP_ L Toe0/Mala_BIP_ L Toe0Nub
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ R Thigh
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ R Thigh/Mala_BIP_
+          R Calf
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ R Thigh/Mala_BIP_
+          R Calf/Mala_BIP_ R Foot
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ R Thigh/Mala_BIP_
+          R Calf/Mala_BIP_ R Foot/Mala_BIP_ R Toe0
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ R Thigh/Mala_BIP_
+          R Calf/Mala_BIP_ R Foot/Mala_BIP_ R Toe0/Mala_BIP_ R Toe0Nub
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ Head
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ Head/Mala_BIP_ HeadNub
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ L Clavicle
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ L Clavicle/Mala_BIP_ L
+          UpperArm
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ L Clavicle/Mala_BIP_ L
+          UpperArm/Mala_BIP_ L Forearm
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ L Clavicle/Mala_BIP_ L
+          UpperArm/Mala_BIP_ L Forearm/Mala_BIP_ L Hand
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ L Clavicle/Mala_BIP_ L
+          UpperArm/Mala_BIP_ L Forearm/Mala_BIP_ L Hand/Mala_BIP_ L Finger0
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ L Clavicle/Mala_BIP_ L
+          UpperArm/Mala_BIP_ L Forearm/Mala_BIP_ L Hand/Mala_BIP_ L Finger0/Mala_BIP_
+          L Finger01
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ L Clavicle/Mala_BIP_ L
+          UpperArm/Mala_BIP_ L Forearm/Mala_BIP_ L Hand/Mala_BIP_ L Finger0/Mala_BIP_
+          L Finger01/Mala_BIP_ L Finger0Nub
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ L Clavicle/Mala_BIP_ L
+          UpperArm/Mala_BIP_ L Forearm/Mala_BIP_ L Hand/Mala_BIP_ L Finger1
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ L Clavicle/Mala_BIP_ L
+          UpperArm/Mala_BIP_ L Forearm/Mala_BIP_ L Hand/Mala_BIP_ L Finger1/Mala_BIP_
+          L Finger11
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ L Clavicle/Mala_BIP_ L
+          UpperArm/Mala_BIP_ L Forearm/Mala_BIP_ L Hand/Mala_BIP_ L Finger1/Mala_BIP_
+          L Finger11/Mala_BIP_ L Finger1Nub
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ R Clavicle
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ R Clavicle/Mala_BIP_ R
+          UpperArm
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ R Clavicle/Mala_BIP_ R
+          UpperArm/Mala_BIP_ R Forearm
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ R Clavicle/Mala_BIP_ R
+          UpperArm/Mala_BIP_ R Forearm/Mala_BIP_ R Hand
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ R Clavicle/Mala_BIP_ R
+          UpperArm/Mala_BIP_ R Forearm/Mala_BIP_ R Hand/Mala_BIP_ R Finger0
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ R Clavicle/Mala_BIP_ R
+          UpperArm/Mala_BIP_ R Forearm/Mala_BIP_ R Hand/Mala_BIP_ R Finger0/Mala_BIP_
+          R Finger01
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ R Clavicle/Mala_BIP_ R
+          UpperArm/Mala_BIP_ R Forearm/Mala_BIP_ R Hand/Mala_BIP_ R Finger0/Mala_BIP_
+          R Finger01/Mala_BIP_ R Finger0Nub
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ R Clavicle/Mala_BIP_ R
+          UpperArm/Mala_BIP_ R Forearm/Mala_BIP_ R Hand/Mala_BIP_ R Finger1
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ R Clavicle/Mala_BIP_ R
+          UpperArm/Mala_BIP_ R Forearm/Mala_BIP_ R Hand/Mala_BIP_ R Finger1/Mala_BIP_
+          R Finger11
+        weight: 1
+      - path: Mala_BIP_/Mala_BIP_ Pelvis/Mala_BIP_ Spine/Mala_BIP_ Spine1/Mala_BIP_
+          Spine2/Mala_BIP_ Spine3/Mala_BIP_ Neck/Mala_BIP_ R Clavicle/Mala_BIP_ R
+          UpperArm/Mala_BIP_ R Forearm/Mala_BIP_ R Hand/Mala_BIP_ R Finger1/Mala_BIP_
+          R Finger11/Mala_BIP_ R Finger1Nub
+        weight: 1
+      - path: Malachai1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4.6
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Mala_BIP_ Pelvis
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

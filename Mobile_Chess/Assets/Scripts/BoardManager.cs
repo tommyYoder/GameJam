@@ -162,15 +162,18 @@ public class BoardManager : MonoBehaviour {
             if (isMoving)
             {
                 movingChessman.transform.position = Vector3.Lerp(curPos, destination, MoveInterp);
-                MoveInterp += (Time.deltaTime / (distance / 3));
+                MoveInterp += (Time.deltaTime / (distance / 1.5f));
             }
+
+            if(MoveInterp > 0.8f)
+                movingChessman.MoveEnd();
 
             if (MoveInterp > 1)
             {
 
                 isMoving = false;
                 MoveInterp = 0;
-
+                
 
                 print(movingChessman.GetType().ToString());
 
@@ -235,6 +238,7 @@ public class BoardManager : MonoBehaviour {
             return;
         // Looks for selected chess piece, changes material to highlight the piece, and then shows the highlight where player can move.
         selectedChessman = Chessmans[x, y];
+        selectedChessman.IsSelected(true);
        // previousMat = selectedChessman.GetComponent<MeshRenderer>().material;
         //selectedMat.mainTexture = previousMat.mainTexture;
         //selectedChessman.GetComponent<MeshRenderer>().material = selectedMat;
@@ -345,6 +349,7 @@ public class BoardManager : MonoBehaviour {
             //selectedChessman.transform.position = GetTileCenter(x, y);
             movingChessman = selectedChessman;
             curPos = selectedChessman.transform.position;
+            movingChessman.IsMoving(true);
             curRot = selectedChessman.transform.rotation;
             destination = GetTileCenter(x, y);
             Vector3 direction = destination - selectedChessman.transform.position;
